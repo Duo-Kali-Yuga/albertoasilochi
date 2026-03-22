@@ -16,6 +16,7 @@ import {
 } from "@/public/index";
 
 import { StaticImageData } from "next/image";
+import { projectOne } from "@/public/projects";
 
 
 const technologies = [
@@ -119,6 +120,7 @@ const projectsContent: projectsContentType = {
   },
 }
 
+
 const projectsData: Record<string, ProjectType[]> = {
   "en": [
     {
@@ -155,6 +157,36 @@ const projectsData: Record<string, ProjectType[]> = {
       liveLink: "https://example.com",
       repoLink: "https://github.com/youruser/project",
       projectImages: [nodejs]
+    },
+    {
+      title: "Personal Portfolio Website",
+      description: "A creative portfolio designed to showcase the design and graphic design skills of a freelancer, with a focus on interactive animations and clean, modern UI.",
+      technologies: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+          icon: reactjs
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+          icon: css
+        },
+        {
+          name: "Tailwind CSS",
+          color: "blue-text-gradient",
+          icon: tailwind
+        },
+      ],
+      features: [
+        "Responsive design with smooth transitions",
+        "Interactive 3D elements",
+        "Clean, minimalistic layout",
+      ],
+      sectionClass: "top-[5.5%] bg-gradient-to-br from-slate-900 to-slate-800",
+      liveLink: "https://staeljesusroxann.vercel.app/",
+      repoLink: "https://github.com/youruser/portfolio",
+      projectImages: projectOne
     }
   ],
   "es": [
@@ -191,6 +223,36 @@ const projectsData: Record<string, ProjectType[]> = {
       sectionClass: "top-[5.5%] bg-gradient-to-br from-slate-900 to-slate-800",
       liveLink: "https://example.com",
       projectImages: [nodejs]
+    },
+    {
+      title: "Portafolio Personal",
+      description: "Un portafolio creativo diseñado para mostrar las habilidades de diseño y diseño gráfico de un freelancer, con un enfoque en animaciones interactivas y una interfaz moderna y limpia.",
+      technologies: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+          icon: reactjs
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+          icon: css
+        },
+        {
+          name: "Tailwind CSS",
+          color: "blue-text-gradient",
+          icon: tailwind
+        },
+      ],
+      features: [
+        "Diseño responsivo con transiciones suaves",
+        "Elementos interactivos en 3D",
+        "Diseño limpio y minimalista",
+      ],
+      sectionClass: "top-[5.5%] bg-gradient-to-br from-slate-900 to-slate-800",
+      liveLink: "https://staeljesusroxann.vercel.app/",
+      repoLink: "https://github.com/youruser/portfolio",
+      projectImages: projectOne
     }
   ],
   "zh": [
@@ -227,6 +289,36 @@ const projectsData: Record<string, ProjectType[]> = {
       sectionClass: "top-[5.5%] bg-gradient-to-br from-slate-900 to-slate-800",
       liveLink: "https://example.com",
       projectImages: [nodejs]
+    },
+    {
+      title: "个人作品集网站",
+      description: "一个创意作品集，旨在展示自由职业者的设计和图形设计技能，重点是互动动画和干净、现代的UI。",
+      technologies: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+          icon: reactjs
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+          icon: css
+        },
+        {
+          name: "Tailwind CSS",
+          color: "blue-text-gradient",
+          icon: tailwind
+        },
+      ],
+      features: [
+        "响应式设计与流畅的过渡效果",
+        "互动式3D元素",
+        "简洁、极简的布局",
+      ],
+      sectionClass: "top-[5.5%] bg-gradient-to-br from-slate-900 to-slate-800",
+      liveLink: "https://staeljesusroxann.vercel.app/",
+      repoLink: "https://github.com/youruser/portfolio",
+      projectImages: projectOne
     }
   ]
 };
