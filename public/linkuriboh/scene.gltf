@@ -1,0 +1,776 @@
+{
+  "accessors": [
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 9627,
+      "max": [
+        0.5035858750343323,
+        0.23983949422836304,
+        0.30300769209861755
+      ],
+      "min": [
+        -0.23605909943580627,
+        -0.22797060012817383,
+        -0.3614329993724823
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 115524,
+      "componentType": 5126,
+      "count": 9627,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 9627,
+      "max": [
+        0.9999986886978149,
+        0.9999326467514038,
+        0.9998879432678223,
+        1.0
+      ],
+      "min": [
+        -0.9999987483024597,
+        -1.0,
+        -0.9999440908432007,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 9627,
+      "max": [
+        0.9881986975669861,
+        0.9551466107368469
+      ],
+      "min": [
+        0.011858940124511719,
+        0.0098722567781806
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 45420,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 231048,
+      "componentType": 5126,
+      "count": 1072,
+      "max": [
+        6.226010799407959,
+        6.226010799407959,
+        0.06054316833615303
+      ],
+      "min": [
+        -6.226010799407959,
+        -6.226010799407959,
+        -0.09944117069244385
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 243912,
+      "componentType": 5126,
+      "count": 1072,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 77016,
+      "componentType": 5126,
+      "count": 1072,
+      "max": [
+        0.940169095993042,
+        0.9827684760093689
+      ],
+      "min": [
+        0.01723146066069603,
+        0.01723146066069603
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 181680,
+      "componentType": 5125,
+      "count": 3648,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 14,
+      "max": [
+        1.0,
+        4.035449876482744e-07,
+        2.45347990812661e-07,
+        0.0,
+        5.663540036948689e-07,
+        1.0,
+        1.0,
+        0.0,
+        2.384140032063442e-07,
+        0.9974743723869324,
+        1.0,
+        0.0,
+        0.10103180259466171,
+        0.0,
+        0.12282290309667587,
+        1.0
+      ],
+      "min": [
+        1.0,
+        -5.663010256284906e-07,
+        -2.3841900542720396e-07,
+        0.0,
+        -4.034619962567376e-07,
+        -1.0,
+        -0.9974743723869324,
+        0.0,
+        -2.3405199556236767e-07,
+        -1.0,
+        -1.0,
+        0.0,
+        -0.10103180259466171,
+        -0.715693473815918,
+        -0.27776989340782166,
+        1.0
+      ],
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 9627,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 154032,
+      "componentType": 5126,
+      "count": 9627,
+      "max": [
+        1.0,
+        0.5,
+        0.1739521026611328,
+        0.0
+      ],
+      "min": [
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "type": "VEC4"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Miaru3d (https://sketchfab.com/miaru3d)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/linkuriboh-yu-gi-oh-vrains-b9c0bdd8d83a4f6ea1258854b13b9e29",
+      "title": "Linkuriboh - Yu-gi-oh! Vrains"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 77016,
+      "byteStride": 8,
+      "name": "shortBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 196272,
+      "byteOffset": 77016,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 85592,
+      "byteOffset": 273288,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 256776,
+      "byteOffset": 358880,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 308064,
+      "byteOffset": 615656,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 896,
+      "byteOffset": 923720,
+      "name": "floatBufferViews"
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 924616,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_clearcoat"
+  ],
+  "images": [
+    {
+      "uri": "textures/Link_Marker_baseColor.png"
+    },
+    {
+      "uri": "textures/Linkuriboh_baseColor.png"
+    },
+    {
+      "uri": "textures/Linkuriboh_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Linkuriboh_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 0
+      },
+      "name": "Link_Marker",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0.6724466463414634,
+          "clearcoatRoughnessFactor": 0.04
+        }
+      },
+      "name": "Linkuriboh",
+      "normalTexture": {
+        "index": 3
+      },
+      "occlusionTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Linkuriboh-material",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 10,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "WEIGHTS_0": 11
+          },
+          "indices": 4,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Link_Marker-material",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 8,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        19
+      ],
+      "name": "Collada visual scene group"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "Linkuriboh_Armature"
+    },
+    {
+      "children": [
+        4,
+        18
+      ],
+      "name": "Object_3"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "_rootJoint"
+    },
+    {
+      "children": [
+        6,
+        14,
+        15,
+        16
+      ],
+      "name": "Linkuriboh_Armature_Body",
+      "rotation": [
+        1.0,
+        0.0,
+        7.549800074002633e-08,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        7
+      ],
+      "name": "Linkuriboh_Armature_Fore_Tail",
+      "rotation": [
+        0.9999948740005493,
+        6.245165495855076e-10,
+        -4.334884806667105e-08,
+        -0.0031980210915207863
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0048224925994873
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        8
+      ],
+      "name": "Linkuriboh_Armature_tail",
+      "rotation": [
+        -0.017268817871809006,
+        1.1944632660743082e-07,
+        7.820417380344225e-08,
+        0.9998509883880615
+      ],
+      "scale": [
+        1.0,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "translation": [
+        0.0,
+        0.251348614692688,
+        1.1641500263781523e-10
+      ]
+    },
+    {
+      "children": [
+        9
+      ],
+      "name": "Linkuriboh_Armature_tail_001",
+      "rotation": [
+        0.025782547891139984,
+        2.3491859568736118e-09,
+        -2.6600190494718845e-07,
+        0.9996675848960876
+      ],
+      "scale": [
+        1.0,
+        1.0000001192092896,
+        1.0
+      ],
+      "translation": [
+        3.552710078910475e-15,
+        0.10503549873828888,
+        9.313230187046884e-10
+      ]
+    },
+    {
+      "children": [
+        10
+      ],
+      "name": "Linkuriboh_Armature_tail_002",
+      "rotation": [
+        -0.01170581765472889,
+        -4.294705650137454e-12,
+        1.8988501437888772e-07,
+        0.9999315142631531
+      ],
+      "scale": [
+        1.0,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "translation": [
+        -1.4210900454981155e-14,
+        0.08421635627746582,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        11
+      ],
+      "name": "Linkuriboh_Armature_tail_003",
+      "rotation": [
+        -0.005923498887568712,
+        8.39485252146499e-12,
+        9.608768891666841e-08,
+        0.999982476234436
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.7763600157738027e-15,
+        0.09607931971549988,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        12
+      ],
+      "name": "Linkuriboh_Armature_tail_004",
+      "rotation": [
+        0.014651946723461151,
+        -2.527606346447442e-09,
+        1.8709907578795537e-07,
+        0.9998926520347595
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.08320850133895874,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        13
+      ],
+      "name": "Linkuriboh_Armature_tail_005",
+      "rotation": [
+        0.0037084724754095078,
+        -5.236770128647095e-09,
+        -4.849060815104167e-07,
+        0.9999931454658508
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.05646752938628197,
+        -9.313230187046884e-10
+      ]
+    },
+    {
+      "name": "Linkuriboh_Armature_tail_006",
+      "rotation": [
+        -0.023134786635637283,
+        1.1512031505844789e-07,
+        4.9838067894825144e-08,
+        0.9997323751449585
+      ],
+      "scale": [
+        1.0,
+        0.9999998211860657,
+        0.9999999403953552
+      ],
+      "translation": [
+        -2.842169926600864e-14,
+        0.039632681757211685,
+        0.0
+      ]
+    },
+    {
+      "name": "Linkuriboh_Armature_Hand_R",
+      "rotation": [
+        0.7071068286895752,
+        -4.662521391196606e-08,
+        4.662521391196606e-08,
+        0.7071068286895752
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.10103189945220947,
+        0.12282299995422363,
+        0.22541779279708862
+      ]
+    },
+    {
+      "name": "Linkuriboh_Armature_Hand_L",
+      "rotation": [
+        0.7071067690849304,
+        -4.66252068065387e-08,
+        4.662521035925238e-08,
+        0.7071068286895752
+      ],
+      "scale": [
+        1.0,
+        0.9999999403953552,
+        0.9999998211860657
+      ],
+      "translation": [
+        0.10103180259466171,
+        0.12282299995422363,
+        0.22541789710521698
+      ]
+    },
+    {
+      "children": [
+        17
+      ],
+      "name": "Linkuriboh_Armature_Top",
+      "rotation": [
+        -0.6815323233604431,
+        -1.4248415425299754e-07,
+        2.979066415775833e-08,
+        0.7317880392074585
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Linkuriboh_Armature_Top_002",
+      "rotation": [
+        -0.7386798858642578,
+        -2.673446797274437e-09,
+        1.0732203570285037e-08,
+        0.6740564107894897
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -3.5909401674416586e-08,
+        0.2712754011154175,
+        -0.08354660123586655
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "Object_18",
+      "skin": 0
+    },
+    {
+      "children": [
+        20
+      ],
+      "matrix": [
+        0.08659148,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.08316383,
+        0.02412182,
+        0.0,
+        0.0,
+        -0.02412182,
+        0.08316383,
+        0.0,
+        0.0,
+        0.0,
+        -0.02161032,
+        1.0
+      ],
+      "name": "Link-circle"
+    },
+    {
+      "mesh": 1,
+      "name": "Link_Marker-material"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 9,
+      "joints": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "skeleton": 4
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Linkuriboh - Yu-gi-oh! Vrains
+* source:	https://sketchfab.com/3d-models/linkuriboh-yu-gi-oh-vrains-b9c0bdd8d83a4f6ea1258854b13b9e29
+* author:	Miaru3d (https://sketchfab.com/miaru3d)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Linkuriboh - Yu-gi-oh! Vrains" (https://sketchfab.com/3d-models/linkuriboh-yu-gi-oh-vrains-b9c0bdd8d83a4f6ea1258854b13b9e29) by Miaru3d (https://sketchfab.com/miaru3d) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
