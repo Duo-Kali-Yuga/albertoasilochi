@@ -13,7 +13,7 @@ const ThemeContext = createContext<ContextType | undefined>(undefined);
 
 export const ThemeProvider = ({children}:{children: React.ReactNode}) => {
   
-  const [theme, setTheme] = useState<Theme | undefined>(undefined)
+  const [theme, setTheme] = useState<Theme>("light")
   
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -21,7 +21,9 @@ export const ThemeProvider = ({children}:{children: React.ReactNode}) => {
       if (saved) {
         setTheme(saved)
       }
-      setTheme(window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches
+
+      setTheme(prefersDark ? "dark" : "light")
     }
   }, [])
 
@@ -34,21 +36,22 @@ export const ThemeProvider = ({children}:{children: React.ReactNode}) => {
       if (theme === "dark") {
         root.dataset.theme = "light"
         root.classList = "light"
+        // root.setAttribute("data-theme", theme);
       } else {
         root.dataset.theme = "dark"
         root.classList = "light"
+        // root.setAttribute("data-theme", theme);
       }
+       
+      localStorage.setItem("theme", theme);
+
     }
 
   }, [theme])
 
-  useEffect(() => {
-    const root = document.documentElement;
-    
-    root.setAttribute("data-theme", theme);
-    
-    localStorage.setItem("theme", theme);
-  }, [theme]);
+  if(theme !== "light" && theme !== "dark") {
+    throw new Error("Theme error")
+  }
 
   return (
     <ThemeContext.Provider value={{theme, toggleTheme}}>

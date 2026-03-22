@@ -1,5 +1,5 @@
 "use client"
-import React, { useLayoutEffect, useRef, Suspense } from 'react'
+import React, { useLayoutEffect, useRef, Suspense, RefObject } from 'react'
 import Image from 'next/image'
 import { type AT } from '@/src/constants/aboutConstant'
 import { useGSAP } from '@gsap/react'
@@ -10,15 +10,16 @@ import { Canvas, useFrame, useThree, useLoader } from '@react-three/fiber'
 import { OrbitControls, Environment, useGLTF, Stage, ContactShadows } from '@react-three/drei'
 import Loader from "../UI/Loader"
 import { useTheme } from '@/src/context/ThemeProvider'
+import { Mesh } from 'three'
 
 
 
 gsap.registerPlugin(ScrollTrigger)
 
 
-const About = ({overlayRef}) => {
+const About = ({overlayRef}:{overlayRef: RefObject<HTMLDivElement>}) => {
 
-  const cubeRef = useRef()
+  const cubeRef = useRef<Mesh | null>(null)
   const { theme } = useTheme();
 
   const {camera} = useThree()
@@ -109,7 +110,7 @@ const AboutRight: React.FC<AT[]> = (aboutInfo) => {
   const imageRef = useRef<HTMLDivElement>(null!)
 
   
-  const {img, alt, id} = aboutInfo
+  // const {img, alt, id} = aboutInfo
 
   // useGSAP(()=>{
 
@@ -136,7 +137,7 @@ const AboutRight: React.FC<AT[]> = (aboutInfo) => {
 
 
   return (
-    <div className='w-full h-full' id={`about-group-${id}`} ref={imageRef}>
+    <div className='w-full h-full' ref={imageRef}>
 
       {/* <div className=' h-80 '
         id={`about-group-i-${id}`}

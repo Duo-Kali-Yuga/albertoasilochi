@@ -43,7 +43,7 @@ const Tech = () => {
                 {isMobile ? (
                   <div className="w-16 h-16 p-2 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center shadow-lg">
                     <Image 
-                      src={typeof tech.icon === 'string' ? tech.icon : tech.icon.src} 
+                      src={typeof tech.icon === 'string' ? tech.icon : tech.icon} 
                       alt={tech.name}
                       width={48}
                       height={48}
