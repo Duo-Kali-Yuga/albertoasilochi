@@ -68,7 +68,7 @@ const Contact = () => {
       ref={divRef}
     >
       <SeparatorLine sectionName={lang === 'zh' ? '联系我' : lang === 'es' ? 'Contacto' : 'Contact'} activeId="contact" />
-      <div className="flex-center-all w-full h-full rounded-4xl relative">
+      <div className="flex-center-all w-full h-full rounded-4xl relative mt-5">
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="flex-center-all flex-col z-10 relative sm:p-10 p-5"
@@ -204,7 +204,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <footer className="mt-16 text-sm ">
+      <footer className="my-4 text-sm ">
         © {new Date().getFullYear()} Alberto A. Silochi reserved.
       </footer>
     </section>

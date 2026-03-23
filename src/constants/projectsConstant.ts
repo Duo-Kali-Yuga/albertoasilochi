@@ -16,7 +16,7 @@ import {
 } from "@/public/index";
 
 import { StaticImageData } from "next/image";
-import { projectOne } from "@/public/projects";
+import { projectOne, projectTwo } from "@/public/projects";
 
 
 const technologies = [
@@ -187,6 +187,42 @@ const projectsData: Record<string, ProjectType[]> = {
       liveLink: "https://staeljesusroxann.vercel.app/",
       repoLink: "https://github.com/youruser/portfolio",
       projectImages: projectOne
+    },
+    {
+      title: "CulinaShare Mobile",
+      description: "A full-stack recipe discovery application that allows users to explore international cuisines, filter by ingredients, and manage personal favorites.",
+      technologies: [
+        {
+          name: "React Native (Expo)",
+          color: "blue-text-gradient",
+          icon: reactjs
+        },
+        {
+          name: "Express.js",
+          color: "green-text-gradient",
+          icon: nodejs
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+          icon: mongodb // Ensure you have this icon imported
+        },
+        {
+          name: "Clerk",
+          color: "purple-text-gradient",
+          icon: nodejs // Ensure you have this icon imported
+        },
+      ],
+      features: [
+        "Real-time recipe discovery via The Meal DB API",
+        "Secure User Authentication and Syncing with Clerk",
+        "Personalized 'Favorite' collection stored on Render-hosted API",
+        "Advanced filtering by categories and step-by-step instructions",
+      ],
+      sectionClass: "top-[15.5%] bg-gradient-to-br from-indigo-950 to-slate-900",
+      liveLink: "https://recipe-favorite-api.onrender.com", 
+      repoLink: "https://github.com/youruser/recipe-app-repo",
+      projectImages: projectTwo
     }
   ],
   "es": [
@@ -253,6 +289,26 @@ const projectsData: Record<string, ProjectType[]> = {
       liveLink: "https://staeljesusroxann.vercel.app/",
       repoLink: "https://github.com/youruser/portfolio",
       projectImages: projectOne
+    },
+    {
+      title: "CulinaShare Mobile",
+      description: "Una aplicación móvil full-stack para el descubrimiento de recetas que permite explorar cocinas internacionales y gestionar favoritos personales.",
+      technologies: [
+        { name: "React Native", color: "blue-text-gradient", icon: reactjs },
+        { name: "Express.js", color: "green-text-gradient", icon: nodejs },
+        { name: "MongoDB", color: "green-text-gradient", icon: mongodb },
+        { name: "Clerk", color: "purple-text-gradient", icon: reactjs },
+      ],
+      features: [
+        "Búsqueda de recetas en tiempo real mediante The Meal DB API",
+        "Autenticación segura de usuarios sincronizada con Clerk",
+        "Colección de 'Favoritos' almacenada en API alojada en Render",
+        "Filtrado avanzado por categorías e instrucciones detalladas",
+      ],
+      sectionClass: "top-[15.5%] bg-gradient-to-br from-indigo-950 to-slate-900",
+      liveLink: "https://recipe-favorite-api.onrender.com",
+      repoLink: "https://github.com/youruser/recipe-app-repo",
+      projectImages: projectTwo
     }
   ],
   "zh": [
@@ -319,6 +375,26 @@ const projectsData: Record<string, ProjectType[]> = {
       liveLink: "https://staeljesusroxann.vercel.app/",
       repoLink: "https://github.com/youruser/portfolio",
       projectImages: projectOne
+    },
+    {
+      title: "CulinaShare 移动端",
+      description: "一个全栈食谱发现移动应用程序，允许用户探索国际美食、按配料过滤并管理个人收藏夹。",
+      technologies: [
+        { name: "React Native", color: "blue-text-gradient", icon: reactjs },
+        { name: "Express.js", color: "green-text-gradient", icon: nodejs },
+        { name: "MongoDB", color: "green-text-gradient", icon: mongodb },
+        { name: "Clerk", color: "purple-text-gradient", icon: reactjs },
+      ],
+      features: [
+        "通过 The Meal DB API 实时获取食谱",
+        "使用 Clerk 进行安全的端用户身份验证",
+        "存储在 Render 托管 API 上的个性化“收藏”集合",
+        "按类别和详细烹饪步骤进行高级过滤",
+      ],
+      sectionClass: "top-[15.5%] bg-gradient-to-br from-indigo-950 to-slate-900",
+      liveLink: "https://recipe-favorite-api.onrender.com",
+      repoLink: "https://github.com/youruser/recipe-app-repo",
+      projectImages: projectTwo
     }
   ]
 };

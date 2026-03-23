@@ -51,7 +51,7 @@ const Projects = () => {
   return (
     <section
       id="work"
-      className="wrapper flex justify-start items-center flex-col relative z-80 "
+      className="wrapper flex justify-start items-center flex-col relative z-80 overflow-x-clip"
     >
       <SeparatorLine sectionName={lang === 'zh' ? '作品' : lang === 'es' ? 'Trabajo' : 'Work'} activeId="work" />
       <div

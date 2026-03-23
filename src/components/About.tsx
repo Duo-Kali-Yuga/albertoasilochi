@@ -39,7 +39,7 @@ const About = () => {
             <AboutRight {...aboutInfo[lang]}/>
           </div>
         </div>
-      <motion.a href={lang === "zh" ? "Curriculum CV - 2025 English V.).pdf" : "Curriculum CV - 2025 English V.).pdf"}
+      <motion.a href={lang === "zh" ? "Curriculum CV - 2026Chinese.pdf" : lang === "en" ? "Curriculum CV - 2026English.pdf" : "Curriculum CV - 2026Spanish.pdf" }
         target="_blank"
         download={true}
 

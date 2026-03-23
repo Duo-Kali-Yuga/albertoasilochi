@@ -81,10 +81,10 @@ const SingleProject: React.FC<ProjectType> = ({title, description, technologies,
 
       <Tilt className="relative z-10 dark:bg-(--color-surface)/60 backdrop-blur-md sm:p-8 p-4 rounded-2xl w-[70%] h-[70%] text-center ">
         <div
-          className='relative w-full h-40'
+          className='relative w-full h-40 rounded-2xl overflow-hidden border-2 border-brand'
         >
           <Image
-            className='-z-10'
+            className='-z-10 object-cover'
             src={projectImages![0]}
             alt={`${projectImages![0]}`}
             fill
