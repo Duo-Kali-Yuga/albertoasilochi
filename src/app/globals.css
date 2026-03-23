@@ -249,7 +249,7 @@ body {
     .image-fill-text {
       /* background-image: url("../../public/herobg.png"); */
       /* background-color: var(--color-primary); */
-      background-image: linear-gradient(180deg, var(--color-primary), var(--color-accent-glow), var(--color-bg), var(--color-surface), var(--color-text));
+      background-image: linear-gradient(180deg, var(--color-primary), var(--color-accent-glow), var(--color-bg), var(--color-surface), var(--color-text), var(--color-primary));
       text-shadow: var(--shadow-glow);
       -webkit-text-stroke-color: var(--shadow-glow);
       -webkit-text-stroke-width: 0.2rem;

@@ -38,7 +38,7 @@ const Figure = ({ isMobile }) => {
 
   useFrame(() => {
 
-    const newPosition = lerpPosition(initialPosition, targetPosition, 0.1)
+    const newPosition = lerpPosition(initialPosition, targetPosition, 0.029)
     setInitialPosition(newPosition)
 
     if (new Vector3(...newPosition).distanceTo(new Vector3(...targetPosition)) < 0.1) {
