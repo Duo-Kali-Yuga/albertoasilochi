@@ -2,10 +2,8 @@
 import { useState, useEffect, useRef } from "react";
 import { useForm } from "react-hook-form";
 import useWeb3Forms from "@web3forms/react";
-import { motion } from "motion/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
-import { useGSAP } from "@gsap/react";
 import SeparatorLine from "../utils/UI/SeparatorLine";
 import PlanetEarth from "../utils/3DModels/PlanetEarth";
 import { useLang } from "../context/LangProvider";
