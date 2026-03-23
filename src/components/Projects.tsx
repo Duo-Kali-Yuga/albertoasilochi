@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useRef } from "react";
 import SeparatorLine from "../utils/UI/SeparatorLine";
-import { motion } from "motion/react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
