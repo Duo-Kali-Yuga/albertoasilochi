@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🌐 Interactive 3D Multilingual Portfolio
+Full-Stack Engineering x Creative 3D Development
+This is a high-performance, responsive portfolio built to showcase the intersection of Full-Stack development and Immersive 3D experiences. The project focuses on clean architecture, internationalization (i18n), and optimized WebGL rendering.
 
-## Getting Started
+🚀 Key Technical Features
+1. Optimized 3D Rendering (React Three Fiber)
+Hybrid Mobile Strategy: To ensure 100% stability on mobile devices, the site automatically swaps heavy WebGL BallCanvas elements for lightweight 2D optimized images based on viewport detection.
 
-First, run the development server:
+Dynamic Environments: Integrated a custom useThemeDetector hook that synchronizes the Three.js <Environment /> (HDRIs) and lighting presets with the user's CSS theme (Dark/Light).
 
-```bash
+Performance Tuning: Utilized dpr={[1, 2]} and gl={{ powerPreference: "high-performance" }} to maximize frame rates while protecting battery life.
+
+2. Advanced CSS Architecture
+Dual-Layer Theming: Implemented a robust Dark/Light mode using CSS Variables and data-theme attributes, allowing for instant transitions without page flickers.
+
+Glassmorphism UI: Developed a "Sticky-to-Fixed" Navbar using native Scroll Observers that features real-time backdrop-blur and a GPU-accelerated scroll progress bar (using scaleX for zero layout shifts).
+
+3. Internationalization (i18n)
+Fully localized content in English (en), Spanish (es), and Chinese (zh).
+
+Structured JSON content management for easy scalability of project descriptions and professional bio.
+
+🛠️ Tech Stack
+Framework: Next.js 15 (App Router)
+
+3D Engine: React Three Fiber & Three.js
+
+Styling: Tailwind CSS
+
+Animation: GSAP (for complex timelines) & Framer Motion
+
+Language: TypeScript
+
+📂 Project Structure
+Bash
+
+├── public/               # Static assets (HDRIs, 3D Models, Icons)
+├── src/
+│   ├── components/       # UI Components (Navbar, Tech, Projects)
+│   ├── context/          # Theme & Language Providers
+│   ├── constants/        # Multi-language JSON content
+│   ├── utils/
+│   │   ├── 3DModels/     # R3F Canvas components
+│   │   └── UI/           # Reusable UI elements
+│   └── styles/           # Global CSS and Theme variables
+
+🛠️ Installation & Setup
+Clone the repository:
+
+Bash
+
+git clone https://github.com/yourusername/portfolio.git
+Install dependencies:
+
+Bash
+
+npm install
+Run the development server:
+
+Bash
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Build for production:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Bash
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm run build
